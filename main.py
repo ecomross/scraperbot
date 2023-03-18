@@ -4,11 +4,9 @@ import re
 from urllib.parse import urlparse, urljoin
 import os
 import zipfile
-import openai
 
 
-# Set your OpenAI API key
-openai.api_key = "replace with your key"
+
 
 
 def add_spaces_before_capitals(text):
